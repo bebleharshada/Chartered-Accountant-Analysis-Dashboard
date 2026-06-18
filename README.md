@@ -1,163 +1,343 @@
-# Chartered-Accountant-Analysis-Dashboard
-# 📊 Chartered Accountant Firm Financial Analytics Dashboard
-## 📌 Project Overview
-
-This project presents an interactive **Financial Analytics Dashboard for a Chartered Accountant (CA) Firm** developed using Microsoft Power BI.
-
-The dashboard provides insights into financial performance, client contribution, service line analysis, employee productivity, and receivables management.
-
-The objective of this project is to demonstrate how business intelligence tools can transform financial data into meaningful insights for better decision-making.
-
-⚠️ **Note:** This dashboard is created using dummy/synthetic data for learning, portfolio demonstration, and visualization purposes. The data does not represent any real organization or client information.
-
----
-
-# 🎯 Business Problem
-
-A CA firm requires visibility into:
-
-- Overall financial performance
-- Revenue generated from different services
-- Profitability analysis
-- Client contribution
-- Employee productivity
-- Outstanding payments and collection efficiency
-
-This dashboard helps management monitor key financial and operational metrics in one place.
-
----
-
-# 📂 Dataset Information
-
-The dataset used in this project is dummy data created for Power BI practice.
-
-The dataset includes:
-
-### Transactions Table
-- Transaction ID
-- Date
-- Client Name
-- Service Line
-- Engagement Type
-- Partner
-- Manager
-- Team
-- Revenue
-- Expense
-- Billable Hours
-- Status
+**CA Firm Financial Analytics Dashboard | Power BI**
 
 
-### Clients Table
-- Client Name
-- Industry
-- Location
-- Client Category
-- Joining Date
+An interactive Power BI dashboard designed to analyze Chartered Accountant (CA) firm financial performance, revenue generation, profitability, client contribution, team productivity, and receivables management using a simulated accounting dataset.
+
+📸 Dashboard Preview
+
+<img width="746" height="305" alt="Screenshot 2026-06-17 173101" src="https://github.com/user-attachments/assets/29b37fa4-861c-45af-86eb-b6026c65ea62" />
 
 
-### Team Table
-- Employee Name
-- Department
-- Designation
+_**📌 Project Overview**_
 
+The CA Firm Financial Analytics Dashboard is a Power BI project developed to simulate real-world financial reporting and business intelligence requirements of a Chartered Accountant firm.
 
-### Receivables Table
-- Invoice ID
-- Invoice Date
-- Due Date
-- Invoice Amount
-- Paid Amount
-- Payment Status
+**The dashboard provides insights into:**
 
+Revenue performance
 
----
+Expense monitoring
 
-# 📊 Dashboard Features
+Profitability analysis
 
-## 1. Executive Financial Overview
+Client contribution
 
-Key Performance Indicators:
+Service line performance
 
-- Total Revenue
-- Total Expenses
-- Total Profit
-- Total Clients Handled
-- Total Hours Billed
-- Outstanding Payments
+Employee productivity
 
+Outstanding payments and collection efficiency
 
----
+**The objective of this project is to demonstrate practical skills in:**
 
-## 2. Revenue Analysis
+Business Intelligence
 
-Insights:
+Financial Analytics
 
-- Monthly Revenue Trend
-- Revenue vs Expense vs Profit Analysis
-- Revenue Contribution by Service Line
-- Top Revenue Generating Clients
+Data Modeling
 
+DAX Calculations
 
----
+Dashboard Development
 
-## 3. Client Analysis
+Data Storytelling
 
-Includes:
+**🎯 Business Problem**
 
-- Top Revenue Generating Clients
-- Client Profitability Analysis
-- Client Payment Delay Analysis
+Accounting firms manage multiple clients, services, invoices, and operational activities.
 
+**Tracking financial performance manually can make it difficult to understand:**
 
----
+Revenue growth
 
-## 4. Service Line Analysis
+Expense control
 
-Analyzes revenue generated from:
+Client profitability
 
-- Audit & Assurance
-- Taxation Services
-- Advisory Services
-- Accounting & Bookkeeping
-- GST Compliance
+Employee productivity
 
+Payment collection status
 
----
+This dashboard provides a centralized analytical solution for monitoring financial and operational performance.
 
-## 5. Team Productivity Analysis
+**🎯 Dashboard Objectives**
 
-Includes:
+**The dashboard enables users to:**
 
-- Billable Hours by Department
-- Partner Performance
-- Employee Revenue Contribution
+✅ Monitor overall firm financial performance
 
+✅ Analyze revenue contribution by service line
 
----
+✅ Identify high-value clients
 
-## 6. Receivables Analysis
+✅ Track profitability trends
 
-Includes:
+✅ Evaluate employee productivity
 
-- Outstanding Payment Aging
-- Pending Payments by Client
-- Collection Monitoring
+✅ Monitor outstanding payments
 
+✅ Analyze collection efficiency
 
----
+**Visualization Techniques Used:**
 
-# 🛠 Tools & Technologies Used
+KPI Cards
 
-- Microsoft Power BI
-- Power Query
-- DAX
-- Data Modelling
-- Excel
-- Data Visualization
+Line Charts
 
+Bar Charts
 
----
+Column Charts
 
-# 📈 Screenshot
-<img width="746" height="305" alt="Screenshot 2026-06-17 173101" src="https://github.com/user-attachments/assets/fe565428-1d5b-407a-b7e5-5d6fd25f6e3c" />
+Donut Charts
+
+Tables
+
+Aging Analysis
+
+Trend Analysis
+
+**Dataset Includes:**
+
+Table	Information
+
+Transactions	Revenue, expenses, service details, billable hours
+
+Clients	Client information, industry, location
+
+Team	Employee details, department, designation
+
+Receivables	Invoice details, payments, outstanding amounts
+
+**_⚠️ Disclaimer:_**
+No real CA firm financial data, client information, or confidential records have been used.
+
+All data is synthetic and created only for analytical demonstration purposes.
+
+**📊 Dashboard Features & Analysis**
+
+_**1. 📌 Executive Financial Overview**_
+
+**Key Performance Indicators:**
+
+**KPI	Description**
+
+💰 Total Revenue	Total income generated from client services
+
+💸 Total Expenses	Operational costs incurred by the firm
+
+📈 Total Profit	Revenue after deducting expenses
+
+👥 Total Clients	Number of clients handled
+
+⏱️ Billable Hours	Employee productivity measurement
+
+💵 Outstanding Receivables	Pending client payments
+
+_**2. 📈 Revenue Performance Analysis**_
+
+**Visuals:**
+
+Monthly Revenue Trend
+
+Revenue vs Expense Comparison
+
+Profit Movement Analysis
+
+**Insights:**
+
+Identifies revenue growth patterns
+
+Tracks monthly financial performance
+
+Highlights fluctuations in profitability
+
+_**3. 🏢 Service Line Revenue Analysis**_
+
+**Revenue contribution is analyzed across:**
+
+Audit & Assurance
+
+Taxation Services
+
+Advisory Services
+
+Accounting & Bookkeeping
+
+GST Compliance
+
+**Insight:**
+Helps identify the highest revenue-generating service areas.
+
+_**4. 🤝 Client Performance Analysis**_
+
+**Analysis Includes:**
+
+Top revenue-generating clients
+
+Client profitability comparison
+
+Payment delay monitoring
+
+**Insight:**
+
+**Helps identify:**
+
+High-value clients
+
+Profitable relationships
+
+Clients requiring payment follow-up
+
+_**5. 👨‍💼 Team Productivity Analysis**_
+
+**Metrics Tracked:**
+
+Department-wise billable hours
+
+Partner performance
+
+Employee revenue contribution
+
+**Insight:**
+
+**Provides visibility into:**
+
+Employee workload
+
+Team contribution
+
+Productivity levels
+
+_**6. 💰 Profitability Analysis**_
+
+**The dashboard evaluates:**
+
+Revenue generated
+
+Expenses incurred
+
+Profit contribution
+
+Profit margins
+
+**Insight:**
+Helps management understand which services and clients generate better profitability.
+
+_**7. ⏳ Receivables & Aging Analysis**_
+
+**Pending payments are analyzed using aging buckets:**
+
+**Aging Bucket:**
+
+0–30 Days
+
+31–60 Days
+
+61–90 Days
+
+90+ Days
+
+**Purpose:**
+Helps identify overdue payments and improve collection monitoring.
+
+**💡 Business Impact & Insights**
+
+**📈 Financial Performance Monitoring:**
+Provides centralized visibility into revenue, expenses, and profitability.
+
+**💰 Profitability Analysis:**
+Identifies high-performing services and clients.
+
+**👥 Client Insights:**
+Analyzes client contribution and payment behavior.
+
+**⚡ Operational Efficiency:**
+Tracks employee productivity through billable hours.
+
+**⏳ Receivable Management:**
+Highlights pending payments and overdue invoices.
+
+**📊 Data-Driven Decision Making:**
+Converts accounting data into actionable business insights.
+
+**⚙️ Key Technical Features**
+Interactive slicers and filters
+Dynamic cross-filtering
+KPI-based reporting
+DAX calculations
+Profit and margin analysis
+Client segmentation
+Receivable aging analysis
+Trend analysis
+Professional dashboard layout
+
+**🧠 Skills Demonstrated**
+Financial Analytics
+Revenue analysis
+Expense tracking
+Profitability measurement
+Receivable management
+Financial reporting
+Power BI Skills
+Dashboard development
+Data modeling
+DAX calculations
+Power Query transformation
+Data visualization
+Business Intelligence Skills
+KPI development
+Data storytelling
+Insight generation
+Analytical thinking
+
+_**The dashboard monitors:**_
+
+💰 Total Revenue
+
+💸 Total Expenses
+
+📈 Total Profit
+
+📊 Profit Margin
+
+👥 Client Count
+
+⏱️ Billable Hours
+
+🏢 Revenue by Service Line
+
+🤝 Client Revenue Contribution
+
+💵 Outstanding Receivables
+
+⏳ Payment Aging Analysis
+
+👨‍💼 Employee Productivity
+
+_**⚠️ Data Security & Disclaimer**_
+
+This dashboard is created entirely using dummy/simulated data for educational and portfolio demonstration purposes only.
+
+No real Chartered Accountant firm data, client information, or confidential financial records have been used.
+
+All company names, client names, and financial values are fictional and created only to demonstrate Power BI analytics capabilities.
+
+_**✅ Project Outcome**_
+
+**This project strengthened practical understanding of:**
+
+Financial analytics
+
+Accounting dashboard development
+
+Business intelligence reporting
+
+Power BI visualization techniques
+
+Data modeling concepts
+
+DAX calculations
+
+KPI-driven decision making
+
+Data storytelling
